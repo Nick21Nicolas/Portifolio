@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Priore - Portifólio</title>
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="profile-header">
+                <div class="profile-image-container">
+                    <img src="icon.jpeg" alt="Foto de Perfil" class="profile-image">
+                </div>                
+                <h1>Nicolas Priore</h1>
+                <p class="subtitle">Desenvolvedor & Programador</p>
+            </div>
+
+            <section class="contact-info">
+                <h3><i class="fas fa-address-book"></i> Contato</h3>
+                <div class="contact-item">
+                    <i class="fas fa-birthday-cake"></i>
+                    <span>17 anos</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Estudante</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>nicolas.priole08@gmail.com </span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>(16) 99637-8308</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Brasil</span>
+                </div>
+            </section>
+
+            <div class="links-section">
+                <a href="#" class="link-button" onclick="showAlert('GitHub')">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a href="#" class="link-button" onclick="downloadCV()">
+                    <i class="fas fa-file-pdf"></i>
+                    Download CV
+                </a>
+            </div>
+        </aside>
+
+        <article>
+            <section id="about">
+                <h2>Sobre Mim</h2>
+                <p class="about-text">
+                    Sou um jovem desenvolvedor de 17 anos apaixonado por tecnologia e programação. Especializo-me no desenvolvimento de software, sistemas, aplicativos e websites, sempre buscando soluções inovadoras e eficientes. Possuo forte habilidade em lógica de programação e grande interesse em cibersegurança, estudando como hacker ético e praticando pentesting.
+                </p>
+                <p class="about-text">
+                    Além da programação, tenho formação em Inteligência Artificial e mantenho-me sempre atualizado com as últimas tendências tecnológicas. Quando não estou codificando, gosto de jogar tênis, acompanhar a Fórmula 1 e jogar futebol, atividades que me ajudam a manter o equilíbrio e a criatividade.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2>Habilidades & Competências</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programação</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span>Lógica de Programação</span>
+                                <span class="skill-level">Intermediário</span>
+                            </li>
+                            <li>
+                                <span>Desenvolvimento Web</span>
+                                <span class="skill-level">Intermediário</span>
+                            </li>
+                            <li>
+                                <span>Desenvolvimento de Apps</span>
+                                <span class="skill-level">Intermediário</span>
+                            </li>
+                            <li>
+                                <span>Sistemas & Software</span>
+                                <span class="skill-level">Intermediário</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-shield-alt"></i> Segurança</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span>Cibersegurança</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                            <li>
+                                <span>Ethical Hacking</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                            <li>
+                                <span>Pentesting</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                            <li>
+                                <span>Análise de Vulnerabilidades</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-robot"></i> Tecnologia</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span>Inteligência Artificial</span>
+                                <span class="skill-level">Intermediário</span>
+                            </li>
+                            <li>
+                                <span>Machine Learning</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                            <li>
+                                <span>Análise de Dados</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                            <li>
+                                <span>Automação</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Ferramentas</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span>Git & GitHub</span>
+                                <span class="skill-level">Avançado</span>
+                            </li>
+                            <li>
+                                <span>Metodologias Ágeis</span>
+                                <span class="skill-level">Intermediário</span>
+                            </li>
+                            <li>
+                                <span>Banco de Dados</span>
+                                <span class="skill-level">Intermediário</span>
+                            </li>
+                            <li>
+                                <span>Cloud Computing</span>
+                                <span class="skill-level">Básico</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="interests">
+                <h2>Interesses & Hobbies</h2>
+                <div class="interests">
+                    <div class="interest-tag">
+                        🎾 Tênis
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-flag-checkered"></i>
+                        Fórmula 1
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-futbol"></i>
+                        Futebol
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-laptop-code"></i>
+                        Programação
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-microchip"></i>
+                        Tecnologia
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-bug"></i>
+                        Bug Hunting
+                    </div>
+                </div>
+            </section>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
